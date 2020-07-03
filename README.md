@@ -39,7 +39,7 @@ The app will be served at [http://localhost:3000/](http://localhost:3000/).
 
 For Password Authentication-
 Firstly open your xampp or any applications which runs PHP server. 
--	Applications -> Settings->Application URIs 
+-	Applications -> Settings->Application URIs
  -Allowed Callback URLs = http:// localhost:3000/ (3000 is my port)
  -Allowed Logout URLs = http://localhost:3000/
 Then go to the directory from >terminal and run the script ```php index.php email="demo@demo.com" password="demo123"``` and enjoy..
