@@ -1,8 +1,9 @@
-# Auth0 + PHP Web App Sample
+# Auth0 + PHP Web App. 
 
 This sample demonstrates how to add authorization to a [PHP](http://php.net/) web app using [Auth0](https://auth0.com).
 
 Check the [PHP Quickstart](https://auth0.com/docs/quickstart/webapp/php) to better understand this sample.
+From this sample you can directly create user in Auth0 by using your terminal.
 
 ## Getting Started
 
@@ -33,6 +34,22 @@ The app will be served at [http://localhost:3000/](http://localhost:3000/).
 
 1. Go to [Auth0](https://auth0.com) and click Sign Up.
 2. Use Google, GitHub or Microsoft Account to login.
+
+## Instruction for the setup of Auth0
+
+For Password Authentication-
+Firstly open your xampp or any applications which runs PHP server. 
+-	Applications -> Settings->Application URIs 
+  o	Allowed Callback URLs = http:// localhost:3000/ (3000 is my port)
+  o	Allowed Logout URLs = http://localhost:3000/
+Then go to the directory from >terminal and run the script ```php index.php email="demo@demo.com" password="demo123"``` and enjoy..
+
+For Passwordless Authentication-
+-	Authentication -> Passwordless
+  o	Passwordless Connections -> Turn on Email
+  o	Select you apps and then turn it on and save.
+Then go to the directory from >terminal and run the script ```php index.php email="demo@demo.com"``` and enjoy..
+
 
 ## Vulnerability Reporting
 
