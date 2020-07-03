@@ -39,15 +39,15 @@ The app will be served at [http://localhost:3000/](http://localhost:3000/).
 
 For Password Authentication-
 Firstly open your xampp or any applications which runs PHP server. 
--Applications -> Settings->Application URIs
- -Allowed Callback URLs = http:// localhost:3000/ (3000 is my port)
- -Allowed Logout URLs = http://localhost:3000/
+1. Applications -> Settings->Application URIs
+   - Allowed Callback URLs = http:// localhost:3000/ (3000 is my port)
+   - Allowed Logout URLs = http://localhost:3000/
 Then go to the directory from >terminal and run the script ```php index.php email="demo@demo.com" password="demo123"``` and enjoy..
 
 For Passwordless Authentication-
--Authentication -> Passwordless
- -Passwordless Connections -> Turn on Email
- -Select you apps and then turn it on and save.
+1. Authentication -> Passwordless
+   - Passwordless Connections -> Turn on Email
+   - Select you apps and then turn it on and save.
 Then go to the directory from >terminal and run the script ```php index.php email="demo@demo.com"``` and enjoy..
 
 
